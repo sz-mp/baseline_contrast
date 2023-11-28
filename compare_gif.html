@@ -1,0 +1,39 @@
+
+    <html>
+    <head>
+    <style>
+    .column {
+        float: left;
+        width: 70%;
+        padding: 5px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="row">
+    <div class="column">
+    <h2>Imagined Speech (left: HbO, right: HbR)</h2>
+    Each panel shows the average of 6 samples (1s) chunks of data from 16 trials of imagined speech. The color represents the average concentration of HbO or HbR across the 6s chunk. The x and y axes represent the channel locations. All plots use the same color scale (max: 95% percentile of all data from the block, min: 5% percentile of all data from the block).
+    <br>
+    <img src="imagined_speech_hbo.gif" alt="imagined_speech_hbo" width="550" height="500">
+    <img src="imagined_speech_hbr.gif" alt="imagined_speech_hbr" width="550" height="500">
+    </div>
+    <div class="column">
+    <h2>Baseline</h2>
+    <img src="baseline_hbo.gif" alt="baseline_hbo" width="550" height="500">
+    <img src="baseline_hbr.gif" alt="baseline_hbr" width="550" height="500">
+    </div>
+    <div class="column">
+    <h2>Imagined Speech minus baseline</h2>
+    <img src="contrast_hbo.gif" alt="contrast_hbo" width="550" height="500">
+    <img src="contrast_hbr.gif" alt="contrast_hbr" width="550" height="500">
+    </div>
+    </div>
+    </body>
+    </html>
+    
